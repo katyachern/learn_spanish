@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Learn Spanish</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Попробовать ещё раз?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Learn Spanish</string>
+    <string name="about_text">Приложение позволяет пользователю изучать как переводы испанских слов на русский (испанский в вопросе, русский в ответах), так и наоборот.\n\nОно имеет 10 тем для изучения и дает возможность пользователю учить язык в режиме викторины: приложение показывает пользователю слово (русское или испанское) и 4 варианта ответа. В каждом тесте по 10 вопросов (при каждом подходе они перемешаны), при этом всего 30 вопросов по каждой тематике.</string>
+    <string name="rules_text">Прежде чем начать обучение, укажите тему. Выберите ответ из предложенных вариантов. Если вы даете правильный ответ, то переходите к следующему вопросу.\n\nЕсли вы выбираете неправильный ответ, викторина заканчивается. Вы можете вернуться на главный экран и попробовать снова.</string>
+    <string name="rules">Правила</string>
+    <string name="about">О приложении</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Learn Spanish (%1$d/%2$d)</string>
+    <string name="title_about_trivia">О приложении</string>
+    <string name="title_trivia_rules">Правила</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Проверить</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Поделиться</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string-array name="spinner_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
