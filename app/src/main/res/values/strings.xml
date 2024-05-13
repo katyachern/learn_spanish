@@ -35,15 +35,15 @@
     <string name="share">Поделиться</string>
     <string name="sharing_not_available">Sharing Not Available</string>
     <string-array name="spinner_array">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
+        <item>Тема 1. Базовые фразы (1)</item>
+        <item>Тема 2. Базовые фразы (2)</item>
+        <item>Тема 3. Места (1)</item>
+        <item>Тема 4. Места (2)</item>
+        <item>Тема 5. Семья</item>
+        <item>Тема 6. Дом</item>
+        <item>Тема 7. Погода</item>
+        <item>Тема 8. Числительные</item>
+        <item>Тема 9. Продуктовый магазин</item>
+        <item>Тема 10. Дни недели</item>
     </string-array>
 </resources>

@@ -36,10 +36,9 @@ class TitleFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_title, container, false)
-
-        val numTheme = binding.themeTextView.text.toString().toInt()
         binding.playButton.setOnClickListener { v: View ->
-            v.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment(numTheme))
+            val nameTheme = binding.spinner.selectedItem.toString()
+            v.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment(nameTheme))
         }
         setHasOptionsMenu(true)
         return binding.root
