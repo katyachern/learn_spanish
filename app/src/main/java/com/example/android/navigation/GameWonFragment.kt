@@ -24,7 +24,7 @@ class GameWonFragment : Fragment() {
                 inflater, R.layout.fragment_game_won, container, false)
         binding.nextMatchButton.setOnClickListener { view: View ->
             view.findNavController().navigate(
-                    GameWonFragmentDirections.actionGameWonFragmentToGameFragment(nameTheme = "Тема 1. Базовые фразы", nameTest = "Тест 1"))
+                    GameWonFragmentDirections.actionGameWonFragmentToTitleFragment())
         }
         setHasOptionsMenu(true)
         return binding.root
