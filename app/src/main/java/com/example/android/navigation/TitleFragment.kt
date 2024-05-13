@@ -38,7 +38,8 @@ class TitleFragment : Fragment() {
                 inflater, R.layout.fragment_title, container, false)
         binding.playButton.setOnClickListener { v: View ->
             val nameTheme = binding.spinner.selectedItem.toString()
-            v.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment(nameTheme))
+            val nameTest = binding.spinner2.selectedItem.toString()
+            v.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment(nameTheme, nameTest))
         }
         setHasOptionsMenu(true)
         return binding.root
